@@ -1,0 +1,24 @@
+{
+	"name": "ts-patterns",
+	"version": "0.0.1",
+	"description": "Patterns and ts sandbox",
+	"scripts": {
+		"strategy": "ts-node ./strategy",
+		"observer": "ts-node ./observer"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RKalensky/ts-patterns.git"
+	},
+	"keywords": [
+		"pattenrs",
+		"typescript"
+	],
+	"author": "Roman Kalensky",
+	"license": "MIT",
+	"homepage": "https://github.com/RKalensky/ts-patterns.git#readme",
+	"dependencies": {
+		"typescript": "3.3.3",
+		"ts-node": "^8.0.3"
+	}
+}
