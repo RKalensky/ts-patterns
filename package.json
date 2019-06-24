@@ -1,6 +1,6 @@
 {
 	"name": "ts-patterns",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Patterns and ts sandbox",
 	"scripts": {
 		"strategy": "ts-node ./strategy",
