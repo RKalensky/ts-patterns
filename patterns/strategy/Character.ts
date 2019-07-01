@@ -3,7 +3,7 @@ import { IWeaponBehavior } from './IWeaponBehavior';
 export abstract class Character {
 	protected weapon: IWeaponBehavior;
 	constructor(weapon: IWeaponBehavior) {
-		this.setWeapon(weapon);
+		this.weapon = weapon;
 	}
 	public fight() {
 		console.log('abstract fight');
