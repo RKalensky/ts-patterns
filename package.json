@@ -3,8 +3,7 @@
 	"version": "0.2.0",
 	"description": "Patterns and ts sandbox",
 	"scripts": {
-		"strategy": "ts-node ./strategy",
-		"observer": "ts-node ./observer"
+		"build": "ts-node ./"
 	},
 	"repository": {
 		"type": "git",
@@ -17,11 +16,12 @@
 	"author": "Roman Kalensky",
 	"license": "MIT",
 	"homepage": "https://github.com/RKalensky/ts-patterns.git#readme",
-	"dependencies": {
-		"typescript": "3.3.3",
-		"ts-node": "^8.0.3"
-	},
+	"dependencies": {},
 	"devDependencies": {
-		"tslint": "^5.18.0"
+		"@types/node": "^12.0.10",
+		"inquirer": "^6.4.1",
+		"ts-node": "^8.3.0",
+		"tslint": "^5.18.0",
+		"typescript": "^3.3.3"
 	}
 }
