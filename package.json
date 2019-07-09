@@ -1,6 +1,6 @@
 {
 	"name": "ts-patterns",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"description": "Patterns and ts sandbox",
 	"scripts": {
 		"build-patterns": "ts-node ./ -r ts-node/register",
