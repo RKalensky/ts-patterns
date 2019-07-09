@@ -3,7 +3,10 @@
 	"version": "0.3.0",
 	"description": "Patterns and ts sandbox",
 	"scripts": {
-		"build": "ts-node ./"
+		"build-patterns": "ts-node ./ -r ts-node/register",
+		"build-playground": "ts-node ./ -r ts-node/register --folder=playground",
+		"build-patterns-debug": "ts-node ./index.ts --folder=patterns --inspect-brk=9230 -r ts-node/register --debug-mode",
+		"build-playground-debug": "ts-node ./index.ts --folder=playground --inspect-brk=9230 -r ts-node/register --debug-mode"
 	},
 	"repository": {
 		"type": "git",
